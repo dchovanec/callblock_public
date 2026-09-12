@@ -1,6 +1,6 @@
-# Privacy Policy for CallBlock
+# Privacy Policy for Ravengarde CallBlock
 
-**Effective Date:** September 3, 2026
+**Effective Date:** September 13, 2026 (applies to version 1.0.5 and later)
 
 ## 1. Introduction
 CallBlock ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how our Android application handles information. Our core philosophy is that your personal data—especially your contacts and call history—belongs to you and should remain on your device.
@@ -10,7 +10,9 @@ CallBlock requires specific sensitive permissions to provide its core call-filte
 
 *   **Contacts (`READ_CONTACTS`)**: We access your contacts to determine if an incoming caller is a known person or a "Favorite" contact, allowing the app to permit these calls based on your settings.
 *   **Call Logs (`READ_CALL_LOG`)**: We access your system call logs to allow you to easily add recent unknown callers to your Whitelist or Blacklist without manual entry.
-*   **Phone State and Call Management (`READ_PHONE_STATE`, `ANSWER_PHONE_CALLS`)**: These permissions are required by the Android operating system for the app to function as a Call Screening Service and accurately identify incoming numbers.
+*   **Notifications (`POST_NOTIFICATIONS`)**: Used solely to show you a local notification when a call is blocked. This can be disabled entirely in the app's settings.
+
+**Caller ID Verification (STIR/SHAKEN):** On Android 11 and newer, the app can read the carrier-provided caller ID verification status of an incoming call (verified / failed / not verified) to optionally block calls with spoofed caller IDs. This status is read from the Android telephony framework at the moment the call arrives, is used only for the local block/allow decision and local logs, and is never transmitted anywhere.
 
 **Data Sovereignty Note:** We **DO NOT** collect, upload, or transmit your contacts, call logs, or any other personal data to any external servers. All processing is performed locally on your device.
 
@@ -24,7 +26,7 @@ is stored locally in a private database on your Android device. This data is not
 
 ## 4. Data Retention and Deletion
 *   **Manual Deletion**: You can delete individual log entries or clear your entire call history at any time within the "Logs" section of the app.
-*   **Automatic Pruning**: The app includes a configurable retention policy (7, 30, or 90 days) that automatically deletes old logs from your device.
+*   **Automatic Pruning**: The app includes a configurable retention policy (7, 30, or 90 days) that automatically deletes old logs from your device. You can also choose to keep logs indefinitely ("Forever"); in that mode only manual deletion applies.
 *   **Uninstallation**: If you uninstall CallBlock, all data stored in its private database will be permanently deleted by the Android system.
 
 ## 5. Third-Party Services
