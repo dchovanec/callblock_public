@@ -1,6 +1,8 @@
-# Privacy Policy for Ravengarde CallBlock
+# Privacy Policy for Robingarde CallBlock
 
-**Effective Date:** September 13, 2026 (applies to version 1.0.5 and later)
+**Effective Date:** September 18, 2026 (applies to the `app.robingarde.callblock`
+listing, version 1.0.0 and later; republished 2026-09 after renaming the
+application package from `com.ravengarde.callblock` — no change to data handling)
 
 ## 1. Introduction
 CallBlock ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how our Android application handles information. Our core philosophy is that your personal data—especially your contacts and call history—belongs to you and should remain on your device.
