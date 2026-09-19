@@ -1,6 +1,6 @@
 # Privacy Policy for Robingarde CallBlock
 
-**Effective Date:** September 18, 2026 (applies to the `app.robingarde.callblock`
+**Effective Date:** September 18, 2026 (applies to the `com.robingarde.callblock`
 listing, version 1.0.0 and later; republished 2026-09 after renaming the
 application package from `com.ravengarde.callblock` — no change to data handling)
 
