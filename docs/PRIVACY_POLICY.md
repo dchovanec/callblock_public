@@ -28,11 +28,13 @@ is stored locally in a private database on your Android device. This data is not
 
 ## 4. Data Retention and Deletion
 *   **Manual Deletion**: You can delete individual log entries or clear your entire call history at any time within the "Logs" section of the app.
-*   **Automatic Pruning**: The app includes a configurable retention policy (7, 30, or 90 days) that automatically deletes old logs from your device. You can also choose to keep logs indefinitely ("Forever"); in that mode only manual deletion applies.
+*   **Automatic Pruning**: The app includes a configurable retention policy (7, 30, or 90 days) that automatically deletes old logs from your device. You can also choose to keep the most recent 1,000 entries with no time limit ("Last 1,000 Calls"); in that mode entries beyond the newest 1,000 are deleted automatically and only the log display is capped accordingly.
 *   **Uninstallation**: If you uninstall CallBlock, all data stored in its private database will be permanently deleted by the Android system.
 
 ## 5. Third-Party Services
 CallBlock does not use third-party analytics, advertising SDKs, or any other services that track your behavior or collect your data.
+
+If you choose to rate CallBlock via the in-app "Rate" option or the rating prompt, the rating flow is provided and handled by Google Play. The rating itself, and any data Google associates with it, are subject to Google Play's own terms and privacy policy; CallBlock itself transmits nothing and cannot see whether you rated the app.
 
 ## 6. Security
 We rely on the standard Android "Sandbox" security model to protect your data. By keeping all data local and requiring no internet permissions, we significantly reduce the risk of unauthorized data access.
